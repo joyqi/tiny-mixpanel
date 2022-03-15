@@ -1,0 +1,33 @@
+{
+  "name": "tiny-mixpanel",
+  "version": "1.0.0",
+  "description": "A minium mixpanel library written in TypeScript",
+  "main": "lib/module.js",
+  "module": "lib/module.js",
+  "types": "lib/module.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyqi/tiny-mixpanel.git"
+  },
+  "keywords": [
+    "mixpanel",
+    "minium",
+    "tiny",
+    "typescript"
+  ],
+  "author": "joyqi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joyqi/tiny-mixpanel/issues"
+  },
+  "homepage": "https://github.com/joyqi/tiny-mixpanel#readme",
+  "devDependencies": {
+    "@types/mixpanel": "^2.14.3",
+    "typescript": "^4.6.2"
+  }
+}
