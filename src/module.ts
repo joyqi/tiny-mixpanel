@@ -1,6 +1,8 @@
-// load mixpanel
-export function loadMixpanel() {
-    const trackUrl = '//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js';
+/**
+ * load mixpanel library
+ * @param libUrl mixpanel lib url
+ */
+export function loadMixpanel(libUrl = '//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js') {
     const script = document.createElement('script');
     const w = window as any;
 
@@ -79,6 +81,6 @@ export function loadMixpanel() {
     w.mixpanel = mp;
 
     script.async = true;
-    script.src = trackUrl;
+    script.src = libUrl;
     document.head.append(script);
 }

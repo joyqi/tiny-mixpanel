@@ -1,6 +1,6 @@
 {
   "name": "tiny-mixpanel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minium mixpanel library written in TypeScript",
   "main": "lib/module.js",
   "module": "lib/module.js",
